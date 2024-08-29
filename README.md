@@ -1,3 +1,19 @@
+## Chat App UI
+- This project is a front-end UI prototype only. It is intended to demonstrate the design and layout of a chat application without any backend integration or real-time features. The UI is built to be easily extendable for future development where functionality can be added.
+- **Deployed Link**: https://chat-app-ecru-pi.vercel.app/
+
+![Chat-app-UI](https://github.com/user-attachments/assets/5d599b42-b106-4f8f-9781-56b619c748e7)
+
+### User Interface:
+- Avatar Display: Each message shows the sender's avatar.
+- Responsive Design: The chat UI is optimized for various screen sizes.
+- File Details: Displays file type, size, and a download option.
+- Online Indicator: Shows if a user or group is currently online.
+-Team Members List: Displays a list of team members, with avatars and online status.
+- **Search Bar**, **Message Composer**, **Directory Access** 
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
