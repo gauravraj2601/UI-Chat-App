@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  /* overflow: scroll; */
+  box-sizing: border-box;
+
+}
+
+
+
+
+@layer utilities{
+  
+
+  .bg-logo{
+    background-color: #615EF0;
+    ;
+  }
+
+  .opacity{
+    opacity: 0.3;
+  }
+  .bg-blue {
+    color: #615ef0; /* Your color code */
+  }
+  .bg-background {
+    background-color: #ffffff;
+  }
+  
+  .custom-placeholder::placeholder {
+    color: #ffffff; /* Replace with your desired color */
+  }
+  .shadow{
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.08);
+
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+  
+  /* Apply the font to the body or any other element */
+  .font-inter {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    /* font-size: 18px; */
+  }
+  .font{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&display=swap');
+  .font-asap{
+    font-family: "Asap", sans-serif;
+  }
+}
+
